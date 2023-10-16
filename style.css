@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+/*
+paleta de cores
+#C518E6
+#312FE5
+#2190E5
+#1CE65D */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Passion+One&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+:root {
+    --color01: #C518E6;
+    --color02: #312FE5;
+    --color03: #538dd8;
+    --color04: #1CE65D;
+
+    --fonte01: 'Dancing Script', cursive;
+    --fonte02: 'Caveat', cursive;
+    
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(240, 106, 240, 0.753), rgba(0, 0, 255, 0.493));
+    min-height: 100vh;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, lightgreen, lightblue);
+    text-align: center;
+}
+header > h1 {
+    font-family: var(--fonte01);
+    color: white;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-size: 4em;
+    
+}
+header > p {
+    max-width: 600px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    margin: auto;
+    
+}
+
+/*main {
+    padding: 20px;
+    background-color: rgb(78, 199, 240);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
+}*/
+section {
+    min-width: 300px;
+    max-width: 1500px;
+    margin: auto;
+    padding-right: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.5em;
+    
+}
+div {
+    background-color: rgba(0, 0, 0, 0.411);
+    background-size: 100% 100%;
+    border-radius: 20px;
+    color: white;
+    padding: 15px;
+    margin: 20px;
+}
+div > h2 {
+    padding: 10px;
+}
+div > p {
+    text-indent: 30px;
+}
+section > h2 {
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    
+}   
+section > p {
+    text-indent: 30px;
+    padding-left: 30px;
+    
+}
+
+section.normal {
+    background-color: white;
+}
+ul.principios > li {
+    list-style: none;
+}
+ul.principios > li::before {
+    content: '\1F64F\00a0\00a0';
+}
+section.imagem {
+    
+    color:rgb(22, 21, 21);
+    background-color: black;
+    background-size: cover;   
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgb(43, 42, 42);
+}
+section#img00 {
+    background-image: url('imagens/reiki01.avif');
+    background-position: center center;
+    
+
+}
+
+section#img01 {
+    background-image: url('imagens/7-chakras-mod.png');
+    background-position: center center;
+    margin-right: -20px;
+}
+
+section#img03 {
+    background-image: url('imagens/reiki03.png');
+    background-position: center center;
+    margin-right: -20px;
+}
+ul > li {
+    margin-left: 100px;
+    line-height: 2em;
+
+}
+
+
+article {
+    background-color: rgba(20, 20, 20, 0.582);
+    margin: auto;
+    padding: 10px;
+}
+article > h2 {
+    padding: 20px;
+
+}
+article > p {
+    padding: 8px;
+    text-indent: 30px;    
+}
+img {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.411);
+    box-shadow: 2px 2px 2px black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-bottom: -10vh;
+    margin-right: -20px;
+    text-align: center;   
+}
